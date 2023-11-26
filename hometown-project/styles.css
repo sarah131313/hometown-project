@@ -1,0 +1,301 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    border: 4px solid #7db6c4;
+    border-radius: 
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background-image: url("images/walid-amghar-8Bw3FnqPmp8-unsplash.jpg");
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    padding-top: 10px;
+    
+    
+}
+
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    
+}
+
+#country-name {
+    letter-spacing: 10px;
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px black;
+    font-family: 'Playfair Display SC', serif;
+    
+    
+}
+
+#bio {
+     color: whitesmoke;
+     text-shadow: 4px 0px 3px black;
+     font-size: 20px;
+     font-family: 'Montserrat', sans-serif;
+     
+     
+     
+}
+
+#options {
+    display: flex;
+    justify-content:end;
+}
+
+.option {
+    font-size: 15px;
+    margin: 3px 10px; 
+    color: whitesmoke;
+    text-shadow: 0 0 2px black;
+   
+}
+
+#ribbon {
+    height: 15px;
+    width: 100%;
+    background: #6c6b71;
+    padding: 10px 0px; 
+}
+
+.option:hover {
+    color: #7db6c4;
+    font-size: 13px;
+    
+}
+
+#algeria {
+    
+    border-bottom:3px solid #7db6c4;
+    padding: 3px 0;
+}
+
+.places {
+    
+    background-image: linear-gradient(#6c6b71,#e3d5ca);
+    width: 100%;
+    height: 650px;
+    
+    
+    
+
+}
+
+.pictures {
+    width: 400px;
+    height: 200px;
+    border: 4px solid #7db6c4;
+    border-radius: 60px;
+    margin: 0px 40px 0px 40px;
+  
+    
+    
+}
+
+
+
+#photos {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 20px 0; 
+    margin: 20px 0 1px 0;
+    
+    
+}
+
+#second-photos {
+     display: flex;
+     justify-content: center;
+     margin: 20px 0 1px 0;
+    
+    
+}
+
+.text {
+    color: #7db6c4;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 1px #6c584c;
+    padding: 20px 0;
+   
+}
+
+
+
+#jijel {
+    background-image: url("images/haithem-ferdi-wFOCASG-4gI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#constantine {
+    background-image: url("images/ahmed-el-amine-nakib--sOS_rLimpQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#oran {
+    background-image: url("images/islam-fersaoui-9qlAltK9ejs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#djanet {
+    background-image: url("images/imgvortex-zyXtZQw51Z4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#algiers {
+    background-image: url("images/nasro-azaizia-wQdI8pEVYP4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#batna {
+    background-image: url("images/jamil-kabar-JrnrB3HgETc-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#museum {
+    background-image: url("images/azzedine-rouichi-W-g1bHfvF_E-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#sahara {
+    background-image: url("images/christian-weiss-2lXW8pjnuFs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.pictures:hover {
+    transform: scale(1.2);
+    
+}
+
+#activities {
+     background-image: linear-gradient(#7db6c4,#e3f2fd);
+     width: 100%;
+     height: 300px;
+     padding: 10px 0;
+     
+     
+}
+
+
+
+#activity-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    
+}
+
+.img {
+    border-radius: 100px;
+    width: 100px;
+    border: 3px solid #6c584c;
+}
+
+.text2 {
+    color: #6c6b71;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 3px;
+    text-shadow: 1px 0 1px black;
+    padding: 10px 0;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+
+
+#guide {
+    background: #e3d5ca;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 40px;
+    height: 300px;
+    
+}
+
+#guide-person {
+    border: 2px solid #6c584c;
+    margin: 30px 0 0 20px;
+   
+}
+
+#info {
+    
+    margin: 30px 0 0 20px;
+    padding: 30px;
+    background: whitesmoke;
+    border-bottom: 5px solid #7db6c4
+}
+
+#btn {
+    border: 2px solid #6c6b71;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 70px;
+    background: #6c6b71;
+    color: whitesmoke;
+}
+
+#email {
+    border: 2px solid #6c6b71;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background: #e3d5ca ;
+    
+}
+
+#guide-info {
+  
+   
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    
+    
+}
+
+
+
+
+
+  
+    
+   
+
+
+
+
+
+
+
